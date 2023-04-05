@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "linux-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu99",
+            "cppStandard": "${default}",
+            "intelliSenseMode": "linux-gcc-x86",
+            "compilerArgs": [
+                "-m32 -Wall -Wextra -std=gnu99"
+            ],
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
