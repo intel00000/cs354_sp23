@@ -5,11 +5,10 @@
 
 int main(void)
 {
+    // set errno flag
+    errno = ENOENT;
 
     printf("%s\n", strerror(errno));
-
-
-
 
     return 0;
 }
