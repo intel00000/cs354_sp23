@@ -44,7 +44,10 @@
     "string_view": "c",
     "initializer_list": "c",
     "utility": "c",
-    "string.h": "c"
+    "string.h": "c",
+    "unistd.h": "c",
+    "stdlib.h": "c",
+    "signal.h": "c"
   },
   "c-cpp-compile-run.run-in-external-terminal": true,
   "c-cpp-compile-run.c-flags": "-Wall -Wextra -m32 -std=gnu99",
